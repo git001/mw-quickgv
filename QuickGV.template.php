@@ -92,7 +92,7 @@ digraph <?php echo $gname; ?> {
 		bgcolor   = "<?php echo $attrs['graph_bg']; ?>",
 		fontcolor = "<?php echo $attrs['graph_label']; ?>",
 		fontsize  = 12,
-		style     = dashed;
+		style     = dashed,
 		gradientangle = 65,
 
 		<?php if ($usage=='neato'): ?>
